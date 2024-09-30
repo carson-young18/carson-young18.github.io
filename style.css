@@ -1,0 +1,104 @@
+body{
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+}
+
+.home-page{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(images/pexels-pixabay-532173.jpg);
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.allison-regular {
+  font-family: "Allison", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 8em;
+}
+
+.quicksand-text {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#home-name{
+  color: white !important;
+}
+
+#pages-name{
+  color: black !important;
+}
+
+nav a:hover{
+  color: lightgrey !important;
+}
+
+.pages-nav{
+  height: 12vh;
+}
+
+.nav-spacer{
+  height: 12vh;
+}
+
+.home-contact-btn{
+  border: 2px white solid;
+}
+
+.home-contact-btn:hover{
+  background-color: white;
+  color: black !important;
+}
+
+.pages-contact-btn{
+  border: 2px black solid;
+}
+
+.pages-contact-btn:hover{
+  background-color: black;
+  color: white !important;
+}
+
+nav li{
+  margin: 0px 10px;
+}
+
+.resume-jumbotron{
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)), url(images/background.webp);
+  background-position: 50% 20%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overlay-text{
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.card-img-overlay{
+  transition: background 0.5s;
+}
+
+.card-img-overlay:hover > .overlay-text{
+  opacity: 1;
+}
+
+.ctc:hover{
+  background: rgba(3, 2, 243, 0.7);
+}
+
+.formFooter{
+  opacity: 0 !important;
+}
